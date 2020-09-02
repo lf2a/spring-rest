@@ -12,6 +12,13 @@
 </head>
 <body>
 <h1>Spring REST Demo</h1>
-<a href="${pageContext.request.contextPath}/test/hello">Hello</a>
+<ul>
+    <li>
+        <a href="${pageContext.request.contextPath}/test/hello">Hello</a>
+    </li>
+    <li>
+        <a href="${pageContext.request.contextPath}/api/students">List Students</a>
+    </li>
+</ul>
 </body>
 </html>
