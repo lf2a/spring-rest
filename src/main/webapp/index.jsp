@@ -19,6 +19,9 @@
     <li>
         <a href="${pageContext.request.contextPath}/api/students">List Students</a>
     </li>
+    <li>
+        <a href="${pageContext.request.contextPath}/api/students/0">Get Students (id=0)</a>
+    </li>
 </ul>
 </body>
 </html>
